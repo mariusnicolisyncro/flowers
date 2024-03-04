@@ -3,9 +3,9 @@
 <map>
   <title>Growingg Flowers</title>  
   
-  <topicref href="topics/care.dita">
-  <topicref href="topics/care1.dita">
+  <topicref href="topics/care.dita"/>
+  <topicref href="topics/care1.dita"/>
   
-  <mapref href="map.ditamap">
+  <mapref href="map.ditamap"/>
 
 </map>
