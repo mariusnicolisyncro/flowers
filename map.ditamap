@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+  <title>map</title>  
+
+  <keydef keys="perennial-label">    
+    <topicmeta>
+      <keywords>
+        <keyword outputclass="label">Perennial Plant</keyword>
+      </keywords>
+    </topicmeta>
+  </keydef>
+  <keydef keys="annual-label">    
+    <topicmeta>
+      <keywords>
+        <keyword outputclass="label">Annual Plant</keyword>
+      </keywords>
+    </topicmeta>
+  </keydef>
+</map>
