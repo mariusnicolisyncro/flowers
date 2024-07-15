@@ -1,4 +1,4 @@
-Oxygen Content Fusion P
+Oxygen Content Fusion Ps
 
 One of the most interesting new features added in Oxygen Content Fusion is the new Projects feature, which allows you to manage a DITA project hosted in a Git repository while maintaining full compatibility with existing workflows and tools.
 Authors can create review ssssssssssssssstasks inside a project and reviewers' feedback is tracked on a dedicated branch in the Git repository.
