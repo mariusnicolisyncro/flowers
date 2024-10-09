@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+  <topicref href="1.dita"/>
+  <mapref href="2.ditamap"/>
+  <topicref href="3.dita">
+    <keydef keys="title-key">
+      <topicmeta>
+        <keywords>
+          <keyword>title-from-key</keyword>
+        </keywords>
+      </topicmeta>
+    </keydef>
+  </topicref>
+  <topicref href="4.dita" navtitle="Navtitle"/>
+  <topicref href="5.dita"/>
+  <topicref href="6.dita"/>
+  <topicref href="7.dita">
+    <topicmeta>
+      <navtitle>Navtitle</navtitle>
+    </topicmeta>
+  </topicref>
+</map>
