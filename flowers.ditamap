@@ -3,7 +3,6 @@
 <map>
   <title>Growing Flowers</title>
   <topicref href="concepts/springFlowers.dita" collection-type="sequence"/>
-  <topicref href="concepts/springFlowers.dita" collection-type="sequence"/>
   <topichead navtitle="Glossary" id="glossary">
     <topicref navtitle="Genus" href="concepts/glossaryGenus.dita" keys="genus" print="yes"/>
   </topichead>
