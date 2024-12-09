@@ -2,9 +2,6 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
   <title>Growingg Flowers</title>
-  <data name="wh-tile">
-    <data name="hide" value="yes"/>
-  </data>
   <topicref href="concepts/springFlowers.dita" collection-type="sequence"/>
   <topichead navtitle="Glossary" id="glossary">
     <topicref navtitle="Genus" href="concepts/glossaryGenus.dita" keys="genus" print="yes"/>
