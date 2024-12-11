@@ -7,6 +7,8 @@
     <deliverable id="d-test-1713875425136" name="test">
         <context idref="GhrYFPEEmwGUSpA"/>
         <output href="webhelp-output"/>
-        <publication idref="webhelp"/>
+        <publication idref="webhelp">
+            <param href="cf://templates/Oxygen" name="webhelp.publishing.template"/>
+        </publication>
     </deliverable>
 </project>
