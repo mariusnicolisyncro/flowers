@@ -1,87 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic_hcd_hh5_qdc">
-  <title>Webinar WN 27</title>
-  <body>
-    <p><i>"Improved review and editing capabilities, support for Markdown and other non-XML files in
-        the file comparison and merge tool, and experimental support for editing DITA maps in a
-        specialized tree editor for the benefit of Oxygen XML Web Author users."</i></p>
-    <p>The features added in version 27 of Web Author allows you to do more in less time. There are
-      many features but I'll mention just a few. You can see all of them in the What's New page on
-      oxygenxml.com.</p>
-    <p>This version brings new capabilities to edit/manipulate documents with AI Positron and
-      features that allows to see, inspect, refine proposed AI changes with ease/confidence. Now you
-      can inspect each piece of text proposed by AI with the diff on text mode, so you can visualize
-      differences up to the individual plain text characters BEFORE accepting the change in your
-      document.</p>
-    <p>Beside that you can now add color highlights to the document. So you can mark a specific part
-      of the document with a color so that a co-reviewers knows what requires special attention. You
-      can choose from a palette o colors.</p>
-    <p>And last but not least the specialized DITA map editor allows you to visualize and edit a
-      DITA map as natural as possible, focused on the tree structure. This blends well with the
-      Intelligent Agent actions (Split Topic, Expand Draft) that can topics to the DITA Map, because
-      this specialized tree-editor allows you to, for example, move the slitted topic to a proper
-      location in the map.</p>
-    <p>Let's see each feature in action.</p>
-    <section id="section_cx3_kh5_qdc">
-      <title>Improved review and editing capabilities</title>
-      <p>The review and editing capabilities are uplifted in version 27 by a few features:<ul
-          id="ul_o5f_4k5_qdc">
-          <li>Color Highlights</li>
-          <li>Outline available on concurrent editing</li>
-          <li>AI</li>
-        </ul></p>
-      <p>You can add color highlights by choosing a color then simply selecting zones in the
-        document, just as natural you would do with a highlighter on a paper. You can all
-        highlighted texts in the Review side-panel, you don't have to scroll and look for highlights
-        in the document.</p>
-    </section>
-    <section id="section_d4q_kh5_qdc">
-      <title>Diff and merge Markdown and plain text files </title>
-      <p>Prior to version 27 the Web Author had a diff and merge tool that allows to see and merge
-        differences between XML documents and the differences were presented in author-mode, not on
-        XML source.</p>
-      <p>The version 27 brings:</p>
-      <ul id="ul_wjc_zk5_qdc">
-        <li>Diff and Merge on Markdown and text-plain files.</li>
-        <li>Toggle Text Mode diff on XML documents</li>
-      </ul>
-      <p>The diff and merge support can be used directly within the application with the compare
-        actions, it allows resolving conflicts when committing on Git, previewing AI Positron
-        proposed changes, etc. But it can be also used to build diff links in your workflow. For
-        example we have a Git Hook that intercepts commits in our manual and builds diff links and
-        comment them on Jira to facilitate documentation review process.</p>
-      <p>The diff on text mode allows full transparency when accepting AI changes.</p>
-    </section>
-    <section id="section_ikh_nh5_qdc">
-      <title>Experimental support for editing DITA maps in a specialized tree editor</title>
-      <p>Web Author 27 comes with a supports for a specialized DITA Map editor, inspired from the
-        so-loved DITA Maps Manager from Oxygen XML Editor. In the long run we aim to offer a similar
-        editing experience with DITA Maps Manager in Oxygen XML Web Author. This release allows
-        integrators to activate/integrate the specialized tree-editor for DITA Map files instead of
-        the author editor. In the following releases we plan to have the DITA Map side-view
-        editable, at least for the Git connector, so if you have any feedback, ideas about the
-        integration feel free to ask.</p>
-      <p>The DITA Map specialized editor presents the document as a tree and allows you to drag and
-        drop nodes, promote/demote, etc. Compared to the author mode, the tree-mode allows you to
-        focus on the hierarchy of topics more, eliminating unnecessary complexity like tags. It
-        shows the tree just as presented in TOC, it shows by default titles instead of hrefs.</p>
-      <p>Integrators can enable this feature by specifying an URL parameter after verifying that
-        it's compatible with their connector. I won't get you through the specific details of the
-        integration, for that you can contact on support@oxygenxml.com. I'll show you how the DITA
-        Map tree mode was successfully integrated in Oxygen Content Fusion, with the mention that
-        Oxygen Content Fusion includes the same editing core/module (that's available in) as Web
-        Author.</p>
-    </section>
-    <section id="section_c53_zvc_rdc">
-      <title>AI</title>
-      <p>The greatest increment that the latest version adds regarding AI is that now you have
-        Intelligent Agents actions that don't just walk text from your document to OpenAI and back,
-        now Positron can do boring tasks for you like splitting a topic in multiple topics and
-        insert them to the map. Latest Positron enables/allows AI to access DITA Map, you can use
-        the chat to add a new topic in the map.</p>
-      <p>AI can update a math ml operation."convert this equation to use fraction instead of
-        division"<codeblock id="codeblock_c22_m1d_rdc">&lt;equation>
+    <title>Webinar WN 27aaa</title>
+    <body>
+        <p><i>"Improved review and editing capabilities, support for Markdown and other non-XML
+                files in the file comparison and merge tool, and experimental support for editing
+                DITA maps in a specialized tree editor for the benefit of Oxygen XML Web Author
+                users."</i></p>
+        <p>The features added in version 27 of Web Author allows you to do more in less time. There
+            are many features but I'll mention just a few. You can see all of them in the What's New
+            page on oxygenxml.com.</p>
+        <p>This version brings new capabilities to edit/manipulate documents with AI Positron and
+            features that allows to see, inspect, refine proposed AI changes with ease/confidence.
+            Now you can inspect each piece of text proposed by AI with the diff on text mode, so you
+            can visualize differences up to the individual plain text characters BEFORE accepting
+            the change in your document.</p>
+        <p>Beside that you can now add color highlights to the document. So you can mark a specific
+            part of the document with a color so that a co-reviewers knows what requires special
+            attention. You can choose from a palette o colors.</p>
+        <p>And last but not least the specialized DITA map editor allows you to visualize and edit a
+            DITA map as natural as possible, focused on the tree structure. This blends well with
+            the Intelligent Agent actions (Split Topic, Expand Draft) that can topics to the DITA
+            Map, because this specialized tree-editor allows you to, for example, move the slitted
+            topic to a proper location in the map.</p>
+        <p>Let's see each feature in action.</p>
+        <section id="section_cx3_kh5_qdc">
+            <title>Improved review and editing capabilities</title>
+            <p>The review and editing capabilities are uplifted in version 27 by a few features:<ul
+                    id="ul_o5f_4k5_qdc">
+                    <li>Color Highlights</li>
+                    <li>Outline available on concurrent editing</li>
+                    <li>AI</li>
+                </ul></p>
+            <p>You can add color highlights by choosing a color then simply selecting zones in the
+                document, just as natural you would do with a highlighter on a paper. You can all
+                highlighted texts in the Review side-panel, you don't have to scroll and look for
+                highlights in the document.</p>
+        </section>
+        <section id="section_d4q_kh5_qdc">
+            <title>Diff and merge Markdown and plain text files </title>
+            <p>Prior to version 27 the Web Author had a diff and merge tool that allows to see and
+                merge differences between XML documents and the differences were presented in
+                author-mode, not on XML source.</p>
+            <p>The version 27 brings:</p>
+            <ul id="ul_wjc_zk5_qdc">
+                <li>Diff and Merge on Markdown and text-plain files.</li>
+                <li>Toggle Text Mode diff on XML documents</li>
+            </ul>
+            <p>The diff and merge support can be used directly within the application with the
+                compare actions, it allows resolving conflicts when committing on Git, previewing AI
+                Positron proposed changes, etc. But it can be also used to build diff links in your
+                workflow. For example we have a Git Hook that intercepts commits in our manual and
+                builds diff links and comment them on Jira to facilitate documentation review
+                process.</p>
+            <p>The diff on text mode allows full transparency when accepting AI changes.</p>
+        </section>
+        <section id="section_ikh_nh5_qdc">
+            <title>Experimental support for editing DITA maps in a specialized tree editor</title>
+            <p>Web Author 27 comes with a supports for a specialized DITA Map editor, inspired from
+                the so-loved DITA Maps Manager from Oxygen XML Editor. In the long run we aim to
+                offer a similar editing experience with DITA Maps Manager in Oxygen XML Web Author.
+                This release allows integrators to activate/integrate the specialized tree-editor
+                for DITA Map files instead of the author editor. In the following releases we plan
+                to have the DITA Map side-view editable, at least for the Git connector, so if you
+                have any feedback, ideas about the integration feel free to ask.</p>
+            <p>The DITA Map specialized editor presents the document as a tree and allows you to
+                drag and drop nodes, promote/demote, etc. Compared to the author mode, the tree-mode
+                allows you to focus on the hierarchy of topics more, eliminating unnecessary
+                complexity like tags. It shows the tree just as presented in TOC, it shows by
+                default titles instead of hrefs.</p>
+            <p>Integrators can enable this feature by specifying an URL parameter after verifying
+                that it's compatible with their connector. I won't get you through the specific
+                details of the integration, for that you can contact on support@oxygenxml.com. I'll
+                show you how the DITA Map tree mode was successfully integrated in Oxygen Content
+                Fusion, with the mention that Oxygen Content Fusion includes the same editing
+                core/module (that's available in) as Web Author.</p>
+        </section>
+        <section id="section_c53_zvc_rdc">
+            <title>AI</title>
+            <p>The greatest increment that the latest version adds regarding AI is that now you have
+                Intelligent Agents actions that don't just walk text from your document to OpenAI
+                and back, now Positron can do boring tasks for you like splitting a topic in
+                multiple topics and insert them to the map. Latest Positron enables/allows AI to
+                access DITA Map, you can use the chat to add a new topic in the map.</p>
+            <p>AI can update a math ml operation."convert this equation to use fraction instead of
+                division"<codeblock id="codeblock_c22_m1d_rdc">&lt;equation>
                 &lt;mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" display="block">
                     &lt;mml:mrow>
                         &lt;mml:msub>
@@ -142,8 +145,8 @@
                     &lt;/mml:mrow>
                 &lt;/mml:math>
             &lt;/equation></codeblock></p>
-      <p>AI consume image.<image href="ecuation.png" id="image_njm_41d_rdc"/></p>
-      <p>AI update dita tree.</p>
-    </section>
-  </body>
+            <p>AI consume image.<image href="ecuation.png" id="image_njm_41d_rdc"/></p>
+            <p>AI update dita tree.</p>
+        </section>
+    </body>
 </topic>
