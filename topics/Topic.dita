@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id="topic_hjb_tjj_pgc">
-    <title></title>
-    <body>
-        <p></p>
-    </body>
+<topic id="intro-programare">
+  <title>Introducere foarte scurtă în programare</title>
+  <shortdesc>Ce este programarea și un exemplu minimal.</shortdesc>
+  <body>
+    <p>Programarea este procesul de a descrie, în pași clari, cum un calculator trebuie să rezolve o problemă.</p>
+    <section>
+      <title>Concepte-cheie</title>
+      <p><b>Variabile</b> (păstrează date), <b>instrucțiuni</b> (pași), <b>structuri de control</b> (decizii și repetări) și <b>funcții</b> (grupează pași reutilizabili).</p>
+    </section>
+    <section>
+      <title>Exemplu</title>
+      <codeblock outputclass="language-python">
+def salut(nume):
+    return f"Salut, {nume}!"
+
+print(salut("Lume"))
+      </codeblock>
+      <p>Rezultat: <code>Salut, Lume!</code></p>
+    </section>
+  </body>
 </topic>
