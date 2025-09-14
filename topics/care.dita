@@ -77,6 +77,9 @@
         </p>
     </body>
     <topic id="id_rls_3rg_m1c" conref="copyright.dita">
-        <title/>
+        <title>Title 1</title>
+        <body>
+            <p>Test in english. Un text in engleza.</p>
+        </body>
     </topic>
 </topic>
