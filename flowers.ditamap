@@ -3,7 +3,7 @@
 <map>
   <title>Growingg Flowers</title>  
   
-  <topicref href="topics/care.dita" navtitle="abc &amp; xyz"/>
+  <topicref href="topics/care.dita" navtitle="abc &amp; xyz &lt; 123"/>
   <topicref href="topics/care1.dita" navtitle="abcd &amp; xyzw"/>
   
   <mapref href="map.ditamap"/>
