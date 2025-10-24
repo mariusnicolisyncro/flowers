@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic_z3k_knr_bhc">
-    <title></title>
+    <title>Let's test the spaces</title>
     <body>
-        <p></p>
+        <p>This is a paragraph with spaces between words.</p>
+        <p>This is another paragraph with spaces between words but in text mode we will replace
+            spaces with tabs.</p>
     </body>
 </topic>
