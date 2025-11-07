@@ -1,8 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id="topic_pm5_qrp_fhc">
-    <title></title>
+<topic id="retrospectiva_sezonului_1_2021_2022">
+    <title>Retrospectiva sezonului 1 (2021 - 2022)</title>
     <body>
-        <p></p>
+        <p><i>Iată câteva informații despre fiecare competiție:</i></p>
+        <p><b>International Autumn Tournament in Informatics (Shumen, Bulgaria).</b></p>
+        <p dir="ltr">S-a desfășurat în perioada 26-27 noiembrie 2021. L-am invitat ca Leader al
+            echipei pe Robert Lincă, și el participant la acest concurs în trecut, iar în acest an a
+            susținut cursuri în centru.</p>
+        <p dir="ltr">Componenții echipei:</p>
+        <ul id="ul_xnz_rbk_fhc">
+            <li dir="ltr">
+                <p dir="ltr"><i>Alexandra Nicola (C.N. “Frații Buzești”)</i></p>
+            </li>
+            <li dir="ltr">
+                <p dir="ltr"><i>Silvian Achim Pănescu (C.N. “Carol I”)</i></p>
+            </li>
+            <li dir="ltr">
+                <p dir="ltr"><i>Divia Negoescu (C.N. “Frații Buzești”)</i></p>
+            </li>
+            <li dir="ltr">
+                <p dir="ltr"><i>Marius Scarlat (C.N. “Frații Buzești”)</i></p>
+            </li>
+        </ul>
+        <image href="../img/2021-2022%20IATI.jpeg" id="image_qwn_mpp_fhc"/>
+        <p>Locația de concurs: sediul <i>Syncro Soft</i></p>
     </body>
 </topic>
